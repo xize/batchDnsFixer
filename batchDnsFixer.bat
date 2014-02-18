@@ -1,4 +1,4 @@
-@Echo off
+@echo off
 cls
 title Dns fixer
 echo.
@@ -7,9 +7,9 @@ echo =========
 echo Dns fixer
 echo =========
 echo.
-echo do you want to reset your dns settings in order to let cluttering 500 server errors disappear?
-echo press enter to start the reset!
-pause
+echo This tool will fix your DNS problems!
+echo Press Enter to start the proccess!
+pause>nul
 ipconfig /flushdns
 ipconfig /flushdns
 ipconfig /release
@@ -21,5 +21,5 @@ echo =========
 echo Dns fixer
 echo =========
 echo.
-echo done, your cluttering dns should be now fixed
+echo Done, your DNS should be fixed now!
 pause
